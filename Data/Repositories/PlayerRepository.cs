@@ -54,6 +54,8 @@ namespace Data.Repositories
                 Strength = request.Strength,
                 Vertical = request.Vertical,
                 Stamina = request.Stamina,
+                Active = true,
+                CreatedTime = DateTime.UtcNow,
             };
 
             var result = await _db.Player.AddAsync(player);
@@ -103,8 +105,7 @@ namespace Data.Repositories
                     Acceleration = player.Acceleration,
                     Strength = player.Strength,
                     Vertical = player.Vertical,
-                    Stamina = player.Stamina,
-
+                    Stamina = player.Stamina
                 };
 
                 // Save player to history table
@@ -149,6 +150,7 @@ namespace Data.Repositories
                 player.Strength = request.Strength;
                 player.Vertical = request.Vertical;
                 player.Stamina = request.Stamina;
+                player.UpdatedTime = DateTime.UtcNow;
 
                 _db.Player.Update(player);
             }
