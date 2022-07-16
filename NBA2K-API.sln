@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBA2K-API", "NBA2K-API\NBA2K-API.csproj", "{882376FC-FD3F-44FF-A079-0886398E767A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{6F417F83-6656-42E9-9188-FC530C023C22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{882376FC-FD3F-44FF-A079-0886398E767A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{882376FC-FD3F-44FF-A079-0886398E767A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{882376FC-FD3F-44FF-A079-0886398E767A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{882376FC-FD3F-44FF-A079-0886398E767A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F417F83-6656-42E9-9188-FC530C023C22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F417F83-6656-42E9-9188-FC530C023C22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F417F83-6656-42E9-9188-FC530C023C22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F417F83-6656-42E9-9188-FC530C023C22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {00E35F32-E406-45BD-BD8D-DFC7337A6384}
+	EndGlobalSection
+EndGlobal
